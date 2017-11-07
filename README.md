@@ -8,13 +8,14 @@ One primary goal of the project is to create a RQL .NET API which wraps the RedD
 
 More information on RedDot CMS can be found on the RedDot website.
 
-#summary Proposed architecture for RQL API.
+ - - -
 
 ## Introduction
 
 In building a true .NET API for calling RQL, code generation is priceless. Especially in the essence of speed of development and maintainability. However, the true "holy grail" is a high-level RQL API which masks the nastiness of RQL XML entirely.
 
 <img src="https://github.com/solutionexchange/RedDot-OSS/blob/master/wiki/RQL%20API%20Architecture.png" />
+Proposed architecture for RQL API.
 
 ## Details
 
