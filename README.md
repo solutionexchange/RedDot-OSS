@@ -7,7 +7,7 @@ One primary goal of the project is to create a RQL .NET API which wraps the RedD
 
 In building a true .NET API for calling RQL, code generation is priceless. Especially in the essence of speed of development and maintainability. However, the true "holy grail" is a high-level RQL API which masks the nastiness of RQL XML entirely.
 
-https://github.com/solutionexchange/RedDot-OSS/blob/master/wiki/RQL%20API%20Architecture.png
+<img src="https://github.com/solutionexchange/RedDot-OSS/blob/master/wiki/RQL%20API%20Architecture.png" />
 
 ## Details
 
