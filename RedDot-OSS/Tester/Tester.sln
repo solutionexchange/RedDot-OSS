@@ -1,0 +1,6 @@
+﻿Microsoft Visual Studio Solution File, Format Version 9.00
+# SharpDevelop 2.0.0.1710
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester.csproj", "{5A9A7EE9-B360-4519-87B5-1ACC9F6E4F55}"
+EndProject
+Global
+EndGlobal

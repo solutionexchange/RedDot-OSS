@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\RQLCodeGenUI.dll
+bin\RQLCodeGenUI.pdb
+obj\Debug\RQLCodeGenUI.dll
+obj\Debug\RQLCodeGenUI.pdb

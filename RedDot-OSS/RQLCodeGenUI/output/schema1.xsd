@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="iodata" type="iodataType" />
+  <xs:complexType name="moduleType">
+    <xs:attribute name="guid" type="xs:string" use="optional" />
+    <xs:attribute name="id" type="xs:string" use="optional" />
+    <xs:attribute name="name" type="xs:string" use="optional" />
+    <xs:attribute name="project" type="xs:string" use="optional" />
+    <xs:attribute name="projectname" type="xs:string" use="optional" />
+    <xs:attribute name="lastid" type="xs:string" use="optional" />
+    <xs:attribute name="lastguid" type="xs:string" use="optional" />
+    <xs:attribute name="last" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="iodataType">
+    <xs:all>
+      <xs:element name="login" type="loginType" />
+      <xs:element name="user" type="userType" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="userType">
+    <xs:all>
+      <xs:element name="modules" type="modulesType" />
+      <xs:element name="lastmodules" type="lastmodulesType" />
+    </xs:all>
+    <xs:attribute name="guid" type="xs:string" use="optional" />
+    <xs:attribute name="name" type="xs:string" use="optional" />
+    <xs:attribute name="fullname" type="xs:string" use="optional" />
+    <xs:attribute name="id" type="xs:string" use="optional" />
+    <xs:attribute name="flags1" type="xs:string" use="optional" />
+    <xs:attribute name="flags2" type="xs:string" use="optional" />
+    <xs:attribute name="dialoglanguageid" type="xs:string" use="optional" />
+    <xs:attribute name="preferrededitor" type="xs:string" use="optional" />
+    <xs:attribute name="invertdirectedit" type="xs:string" use="optional" />
+    <xs:attribute name="dialogtextdirection" type="xs:string" use="optional" />
+    <xs:attribute name="languageid" type="xs:string" use="optional" />
+    <xs:attribute name="showstarthelp" type="xs:string" use="optional" />
+    <xs:attribute name="lcid" type="xs:string" use="optional" />
+    <xs:attribute name="navigationtype" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="lastmodulesType">
+    <xs:all>
+      <xs:element name="module" type="moduleType" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="loginType">
+    <xs:attribute name="guid" type="xs:string" use="optional" />
+    <xs:attribute name="server" type="xs:string" use="optional" />
+    <xs:attribute name="serverguid" type="xs:string" use="optional" />
+    <xs:attribute name="userkey" type="xs:string" use="optional" />
+    <xs:attribute name="usertoken" type="xs:string" use="optional" />
+    <xs:attribute name="name" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="modulesType">
+    <xs:all>
+      <xs:element name="module" type="moduleType" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>
+<!--
+System.Xml.Schema.XmlSchema
+	System.Xml.Schema.XmlSchemaElement
+		System.Xml.Schema.XmlSchemaComplexType
+			System.Xml.Schema.XmlSchemaAll
+				System.Xml.Schema.XmlSchemaElement
+					System.Xml.Schema.XmlSchemaComplexType
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+				System.Xml.Schema.XmlSchemaElement
+					System.Xml.Schema.XmlSchemaComplexType
+						System.Xml.Schema.XmlSchemaAll
+							System.Xml.Schema.XmlSchemaElement
+								System.Xml.Schema.XmlSchemaComplexType
+									System.Xml.Schema.XmlSchemaAll
+										System.Xml.Schema.XmlSchemaElement
+											System.Xml.Schema.XmlSchemaComplexType
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+							System.Xml.Schema.XmlSchemaElement
+								System.Xml.Schema.XmlSchemaComplexType
+									System.Xml.Schema.XmlSchemaAll
+										System.Xml.Schema.XmlSchemaElement
+											System.Xml.Schema.XmlSchemaComplexType
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+												System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaAttribute
+	System.Xml.Schema.XmlSchemaComplexType
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+	System.Xml.Schema.XmlSchemaComplexType
+		System.Xml.Schema.XmlSchemaAll
+			System.Xml.Schema.XmlSchemaElement
+				System.Xml.Schema.XmlSchemaComplexType
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+			System.Xml.Schema.XmlSchemaElement
+				System.Xml.Schema.XmlSchemaComplexType
+					System.Xml.Schema.XmlSchemaAll
+						System.Xml.Schema.XmlSchemaElement
+							System.Xml.Schema.XmlSchemaComplexType
+								System.Xml.Schema.XmlSchemaAll
+									System.Xml.Schema.XmlSchemaElement
+										System.Xml.Schema.XmlSchemaComplexType
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+						System.Xml.Schema.XmlSchemaElement
+							System.Xml.Schema.XmlSchemaComplexType
+								System.Xml.Schema.XmlSchemaAll
+									System.Xml.Schema.XmlSchemaElement
+										System.Xml.Schema.XmlSchemaComplexType
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+											System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+	System.Xml.Schema.XmlSchemaComplexType
+		System.Xml.Schema.XmlSchemaAll
+			System.Xml.Schema.XmlSchemaElement
+				System.Xml.Schema.XmlSchemaComplexType
+					System.Xml.Schema.XmlSchemaAll
+						System.Xml.Schema.XmlSchemaElement
+							System.Xml.Schema.XmlSchemaComplexType
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+			System.Xml.Schema.XmlSchemaElement
+				System.Xml.Schema.XmlSchemaComplexType
+					System.Xml.Schema.XmlSchemaAll
+						System.Xml.Schema.XmlSchemaElement
+							System.Xml.Schema.XmlSchemaComplexType
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+								System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+	System.Xml.Schema.XmlSchemaComplexType
+		System.Xml.Schema.XmlSchemaAll
+			System.Xml.Schema.XmlSchemaElement
+				System.Xml.Schema.XmlSchemaComplexType
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+	System.Xml.Schema.XmlSchemaComplexType
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+		System.Xml.Schema.XmlSchemaAttribute
+	System.Xml.Schema.XmlSchemaComplexType
+		System.Xml.Schema.XmlSchemaAll
+			System.Xml.Schema.XmlSchemaElement
+				System.Xml.Schema.XmlSchemaComplexType
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+					System.Xml.Schema.XmlSchemaAttribute
+-->

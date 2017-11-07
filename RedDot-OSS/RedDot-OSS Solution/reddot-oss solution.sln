@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 2.1.0.2376
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RQLCodeGenUI", "..\RQLCodeGenUI\RQLCodeGenUI.csproj", "{351BBCA4-C9AA-46C2-B3C9-5E8EC2190C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RQLCodeGenTester", "..\Tester\RQLCodeGenTester.csproj", "{5A9A7EE9-B360-4519-87B5-1ACC9F6E4F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		C0B4C80B-B99D-4A1B-AC3F-B4F53E3742A7.Debug|Any CPU.Build.0 = Debug|Any CPU
+		C0B4C80B-B99D-4A1B-AC3F-B4F53E3742A7.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		C0B4C80B-B99D-4A1B-AC3F-B4F53E3742A7.Release|Any CPU.Build.0 = Release|Any CPU
+		C0B4C80B-B99D-4A1B-AC3F-B4F53E3742A7.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351BBCA4-C9AA-46C2-B3C9-5E8EC2190C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351BBCA4-C9AA-46C2-B3C9-5E8EC2190C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351BBCA4-C9AA-46C2-B3C9-5E8EC2190C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351BBCA4-C9AA-46C2-B3C9-5E8EC2190C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9A7EE9-B360-4519-87B5-1ACC9F6E4F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9A7EE9-B360-4519-87B5-1ACC9F6E4F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9A7EE9-B360-4519-87B5-1ACC9F6E4F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9A7EE9-B360-4519-87B5-1ACC9F6E4F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FD68B1-AFF5-407F-9071-5F8AC152DC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FD68B1-AFF5-407F-9071-5F8AC152DC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FD68B1-AFF5-407F-9071-5F8AC152DC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FD68B1-AFF5-407F-9071-5F8AC152DC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

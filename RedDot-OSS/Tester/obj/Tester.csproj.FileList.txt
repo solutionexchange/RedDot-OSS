@@ -1,0 +1,7 @@
+bin\Debug\Tester.exe
+bin\Debug\Tester.pdb
+bin\Debug\RQLCodeGenUI.dll
+bin\Debug\RQLCodeGenUI.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Tester.exe
+obj\Debug\Tester.pdb

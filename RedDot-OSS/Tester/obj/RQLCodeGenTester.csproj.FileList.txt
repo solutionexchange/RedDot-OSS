@@ -1,0 +1,7 @@
+bin\Debug\RQLCodeGenTester.exe
+bin\Debug\RQLCodeGenTester.pdb
+bin\Debug\RQLCodeGenUI.dll
+bin\Debug\RQLCodeGenUI.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RQLCodeGenTester.exe
+obj\Debug\RQLCodeGenTester.pdb
