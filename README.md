@@ -96,3 +96,5 @@ rql.LogOut();
 Much easier! The API could then be fronted by a COM Wrapper for VB6/ASP access, or a web service for access via any SOAP client.
 
 The holy grail of RQL...
+
+Copyright 2007 Nick Wesselman
