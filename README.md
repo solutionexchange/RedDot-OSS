@@ -1,5 +1,12 @@
 # RedDot-OSS
+
+A gathering of open source tools, plugins, APIs, and code for use with RedDot CMS.
+
+RedDot CMS is a web content management system providing best in class usability and functionality. Any developer who has used it, though, will concede the frustrations at times with the developer tools and capabilities of the product. This project is aimed at collecting tools, templates, techniques, and plugins which RedDot developers are willing to share with each other.
+
 One primary goal of the project is to create a RQL .NET API which wraps the RedDot Query Language (RQL) API that allows for programmatic access to the RedDot CMS back-end.
+
+More information on RedDot CMS can be found on the RedDot website.
 
 #summary Proposed architecture for RQL API.
 
